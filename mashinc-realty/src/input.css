@@ -1,0 +1,187 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Base Styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  /* Skip to content link */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #0c1b32;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    transition: top 0.3s;
+    z-index: 100;
+  }
+  
+  .skip-link:focus {
+    top: 6px;
+  }
+  
+  /* Focus visible styles */
+  .focus-visible:focus {
+    outline: 2px solid #ffd700;
+    outline-offset: 2px;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0c1b32;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1e293b;
+  }
+}
+
+/* Component Styles */
+@layer components {
+  .btn-primary {
+    @apply bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-secondary focus-visible:outline-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary hover:bg-secondary/90 text-primary px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 focus-visible:outline-2 focus-visible:outline-secondary focus-visible:outline-offset-2;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1;
+  }
+  
+  .nav-link {
+    @apply text-white hover:text-secondary transition-colors duration-300 font-medium focus-visible:outline-2 focus-visible:outline-secondary focus-visible:outline-offset-2;
+  }
+  
+  .nav-link.active {
+    @apply text-secondary border-b-2 border-secondary;
+  }
+  
+  /* Animated background elements */
+  .bg-animated {
+    background: #0c1b32;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  .floating-shapes::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(197, 166, 109, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    top: 10%;
+    right: 10%;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .floating-shapes::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, rgba(12, 27, 50, 0.2) 0%, transparent 70%);
+    border-radius: 50%;
+    bottom: 20%;
+    left: 15%;
+    animation: float 8s ease-in-out infinite reverse;
+  }
+
+  /* Hero Background Images */
+  .hero-bg-home {
+    background-image: url('./images/project-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .hero-bg-about {
+    background-image: url('./images/Mashinc-boss.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .hero-bg-listings {
+    background-image: url('./images/project-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .hero-bg-contact {
+    background-image: url('./images/project-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+}
+
+/* Utility Classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .animate-on-scroll {
+    transition: all 0.6s ease-out;
+  }
+  
+  .animate-on-scroll.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .animation-delay-200 {
+    animation-delay: 200ms;
+    transition-delay: 200ms;
+  }
+  
+  .animation-delay-400 {
+    animation-delay: 400ms;
+    transition-delay: 400ms;
+  }
+  
+  .animation-delay-600 {
+    animation-delay: 600ms;
+    transition-delay: 600ms;
+  }
+}

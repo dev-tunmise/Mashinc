@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mashinc Realty - Premium real estate development in Nigeria. Led by Abayomi Animashaun, we create luxury properties and investment opportunities across Nigeria.">
+    <meta name="keywords" content="real estate, Nigeria, property development, luxury homes, investment, Abayomi Animashaun, Mashinc Realty">
+    <meta name="author" content="Mashinc Realty">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mashinc Realty - Premium Real Estate Development in Nigeria">
+    <meta property="og:description" content="Discover luxury properties and investment opportunities with Nigeria's leading real estate developer.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mashincrealty.com">
+    <meta property="og:image" content="https://mashincrealty.com/src/images/og-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mashinc Realty - Premium Real Estate Development">
+    <meta name="twitter:description" content="Discover luxury properties and investment opportunities with Nigeria's leading real estate developer.">
+    <meta name="twitter:image" content="https://mashincrealty.com/src/images/twitter-image.jpg">
+    
+    <title>Mashinc Realty - Premium Real Estate Development in Nigeria</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./src/images/favicon.ico">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-link focus-visible">Skip to main content</a>
+    
+    <!-- Navigation Header -->
+    <header role="banner">
+        <nav class="fixed w-full z-50 bg-primary shadow-lg transition-all duration-300" aria-label="Main navigation">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-20">
+                    <!-- Logo -->
+                    <div class="flex-shrink-0">
+                        <a href="index.html" class="focus-visible">
+                            <img src="./src/images/mashinc-logo.jpg" alt="Mashinc Realty Logo" width="100" height="60" class="h-12 w-auto">
+                        </a>
+                    </div>
+                    
+                    <!-- Desktop Navigation -->
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-8">
+                            <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                            <a href="about.html" class="nav-link">About Us</a>
+                            <a href="listings.html" class="nav-link">Properties</a>
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Mobile menu button -->
+                    <div class="md:hidden">
+                        <button type="button" id="mobile-menu-toggle" class="text-white hover:text-secondary focus-visible" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation menu">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation Menu -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="fixed inset-0 z-50 bg-primary">
+                    <div class="flex justify-between items-center p-4 border-b border-gray-600">
+                        <img src="./src/images/mashinc-logo.jpg" alt="Mashinc Realty Logo" width="150" height="50" class="h-10 w-auto">
+                        <button type="button" id="mobile-menu-close" class="text-white hover:text-secondary focus-visible" aria-label="Close navigation menu">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="px-4 py-6 space-y-6">
+                        <a href="index.html" class="block text-xl font-medium text-secondary">Home</a>
+                        <a href="about.html" class="block text-xl font-medium text-white hover:text-secondary">About Us</a>
+                        <a href="listings.html" class="block text-xl font-medium text-white hover:text-secondary">Properties</a>
+                        <a href="contact.html" class="block text-xl font-medium text-white hover:text-secondary">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- HERO SECTION -->
+        <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+            <!-- Background Image - CHANGE SRC TO YOUR IMAGE -->
+            <img src="./src/images/hero-bg.jpg" alt="Mashinc Realty Hero Background" class="absolute inset-0 w-full h-full object-cover z-0" loading="eager">
+            
+            <!-- Dark Overlay for text readability -->
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/80 to-primary/60 z-10"></div>
+            
+            <!-- Content -->
+            <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 animate-fade-in">
+                    Premium Real Estate
+                    <span class="block text-secondary">Development</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto animate-fade-in animation-delay-200">
+                    Transform your vision into reality with Nigeria's leading real estate developer. 
+                    Luxury properties, strategic locations, exceptional value.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in animation-delay-400">
+                    <a href="listings.html" class="btn-secondary">
+                        Explore Properties
+                    </a>
+                    <a href="contact.html" class="btn-outline bg-white/10 border-white text-white hover:bg-white hover:text-primary">
+                        Schedule Consultation
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Scroll indicator -->
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
+            </div>
+        </section>
+        
+        <!-- COMPANY OVERVIEW SECTION -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 animate-on-scroll">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-primary mb-4">
+                        Building Nigeria's Future
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Under the visionary leadership of Abayomi Animashaun, Mashinc Realty has established itself as Nigeria's premier real estate development company, creating exceptional properties that define modern luxury living.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="animate-on-scroll">
+                        <img src="./src/images/project-1.jpg" alt="Mashinc Realty modern development project" width="600" height="400" class="rounded-2xl shadow-2xl w-full h-auto" loading="lazy">
+                    </div>
+                    <div class="animate-on-scroll animation-delay-200">
+                        <h3 class="text-2xl font-heading font-semibold text-primary mb-6">Excellence in Every Detail</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-6 h-6 bg-secondary rounded-full mt-1 mr-4"></div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">Strategic Locations</h4>
+                                    <p class="text-gray-600">Prime locations across Nigeria's major cities, ensuring maximum appreciation and accessibility.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-6 h-6 bg-secondary rounded-full mt-1 mr-4"></div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">Modern Architecture</h4>
+                                    <p class="text-gray-600">Contemporary designs that blend functionality with aesthetic appeal, setting new standards in luxury living.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 w-6 h-6 bg-secondary rounded-full mt-1 mr-4"></div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900 mb-2">Quality Construction</h4>
+                                    <p class="text-gray-600">Premium materials and expert craftsmanship ensure lasting value and superior living experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FEATURED PROPERTIES SECTION -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 animate-on-scroll">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-primary mb-4">
+                        Featured Properties
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                        Discover our most sought-after developments, each carefully crafted to exceed expectations and deliver exceptional value.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Property Card 1 -->
+                    <div class="card property-card animate-on-scroll">
+                        <div class="relative overflow-hidden rounded-t-xl">
+                            <img src="./src/images/project-1.jpg" alt="Luxury Villa in Victoria Island" width="400" height="300" class="w-full h-64 object-cover transition-transform duration-300 hover:scale-110" loading="lazy">
+                            <div class="absolute top-4 left-4">
+                                <span class="bg-secondary text-primary px-3 py-1 rounded-full text-sm font-semibold">Featured</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-heading font-semibold text-primary mb-2">Victoria Island Luxury Villa</h3>
+                            <p class="text-gray-600 mb-4">Modern 4-bedroom villa with panoramic waterfront views, private pool, and premium finishes.</p>
+                            <div class="flex justify-between items-center mb-4">
+                                <span class="text-2xl font-bold text-primary">₦850M</span>
+                                <span class="text-sm text-gray-500">Victoria Island, Lagos</span>
+                            </div>
+                            <div class="flex justify-between text-sm text-gray-600 mb-4">
+                                <span>4 Bedrooms</span>
+                                <span>5 Bathrooms</span>
+                                <span>Private Pool</span>
+                            </div>
+                            <a href="contact.html?subject=Inquiry about Victoria Island Luxury Villa" class="btn-primary w-full text-center">
+                                Request Information
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Property Card 2 -->
+                    <div class="card property-card animate-on-scroll animation-delay-200">
+                        <div class="relative overflow-hidden rounded-t-xl">
+                            <img src="./src/images/project-2.jpg" alt="Executive Penthouse in Abuja" width="400" height="300" class="w-full h-64 object-cover transition-transform duration-300 hover:scale-110" loading="lazy">
+                            <div class="absolute top-4 left-4">
+                                <span class="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">New</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-heading font-semibold text-primary mb-2">Abuja Executive Penthouse</h3>
+                            <p class="text-gray-600 mb-4">Sophisticated penthouse with city views, smart home technology, and exclusive amenities.</p>
+                            <div class="flex justify-between items-center mb-4">
+                                <span class="text-2xl font-bold text-primary">₦650M</span>
+                                <span class="text-sm text-gray-500">Maitama, Abuja</span>
+                            </div>
+                            <div class="flex justify-between text-sm text-gray-600 mb-4">
+                                <span>3 Bedrooms</span>
+                                <span>4 Bathrooms</span>
+                                <span>Sky Terrace</span>
+                            </div>
+                            <a href="contact.html?subject=Inquiry about Abuja Executive Penthouse" class="btn-primary w-full text-center">
+                                Request Information
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Property Card 3 -->
+                    <div class="card property-card animate-on-scroll animation-delay-400">
+                        <div class="relative overflow-hidden rounded-t-xl">
+                            <img src="./src/images/project-3.jpg" alt="Waterfront Estate in Port Harcourt" width="400" height="300" class="w-full h-64 object-cover transition-transform duration-300 hover:scale-110" loading="lazy">
+                            <div class="absolute top-4 left-4">
+                                <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-semibold">Investment</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-heading font-semibold text-primary mb-2">Port Harcourt Waterfront Estate</h3>
+                            <p class="text-gray-600 mb-4">Exclusive gated community with marina access, 24/7 security, and world-class facilities.</p>
+                            <div class="flex justify-between items-center mb-4">
+                                <span class="text-2xl font-bold text-primary">₦450M</span>
+                                <span class="text-sm text-gray-500">GRA, Port Harcourt</span>
+                            </div>
+                            <div class="flex justify-between text-sm text-gray-600 mb-4">
+                                <span>5 Bedrooms</span>
+                                <span>6 Bathrooms</span>
+                                <span>Marina Access</span>
+                            </div>
+                            <a href="contact.html?subject=Inquiry about Port Harcourt Waterfront Estate" class="btn-primary w-full text-center">
+                                Request Information
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-12 animate-on-scroll">
+                    <a href="listings.html" class="btn-outline">
+                        View All Properties
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- WHY CHOOSE US SECTION -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 animate-on-scroll">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-primary mb-4">
+                        Why Choose Mashinc Realty
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                        Experience the difference with Nigeria's most trusted real estate developer.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center animate-on-scroll">
+                        <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-semibold text-primary mb-3">Proven Track Record</h3>
+                        <p class="text-gray-600">Over a decade of successful projects and satisfied clients across Nigeria.</p>
+                    </div>
+                    
+                    <div class="text-center animate-on-scroll animation-delay-200">
+                        <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-semibold text-primary mb-3">Premium Locations</h3>
+                        <p class="text-gray-600">Strategic positioning in Nigeria's most desirable and appreciating areas.</p>
+                    </div>
+                    
+                    <div class="text-center animate-on-scroll animation-delay-400">
+                        <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-semibold text-primary mb-3">Investment Value</h3>
+                        <p class="text-gray-600">Properties designed for maximum appreciation and rental yield potential.</p>
+                    </div>
+                    
+                    <div class="text-center animate-on-scroll animation-delay-600">
+                        <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-semibold text-primary mb-3">Expert Team</h3>
+                        <p class="text-gray-600">Professional architects, engineers, and project managers ensuring excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CALL TO ACTION SECTION -->
+        <section class="py-20 bg-gradient-to-r from-primary to-primary/90 relative overflow-hidden">
+            <div class="absolute inset-0 floating-shapes"></div>
+            <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="animate-on-scroll">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-6">
+                        Ready to Find Your Dream Property?
+                    </h2>
+                    <p class="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
+                        Join hundreds of satisfied clients who've made smart investments with Mashinc Realty. 
+                        Let's discuss your vision and turn it into reality.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="contact.html" class="btn-secondary">
+                            Schedule Consultation
+                        </a>
+                        <a href="listings.html" class="btn-outline bg-white/10 border-white text-white hover:bg-white hover:text-primary">
+                            Browse Properties
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-primary text-white" role="contentinfo">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-2">
+                    <img src="./src/images/mashinc-logo.jpg" alt="Mashinc Realty Logo" width="200" height="67" class="h-16 w-auto mb-4">
+                    <p class="text-gray-300 mb-6 max-w-md">
+                        Nigeria's premier real estate development company, creating exceptional properties under the leadership of Abayomi Animashaun.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-secondary transition-colors focus-visible" aria-label="Facebook">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-secondary transition-colors focus-visible" aria-label="Twitter">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-secondary transition-colors focus-visible" aria-label="LinkedIn">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-secondary transition-colors focus-visible" aria-label="Instagram">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.618 5.367 11.986 11.988 11.986s11.987-5.368 11.987-11.986C24.014 5.367 18.635.001 12.017.001zm3.291 12.053c0 1.8-1.458 3.258-3.258 3.258s-3.258-1.458-3.258-3.258 1.458-3.258 3.258-3.258 3.258 1.458 3.258 3.258zm1.614-4.261c-.421 0-.761-.34-.761-.761s.34-.761.761-.761.761.34.761.761-.34.761-.761.761zm2.208-1.708c-.196-2.084-1.146-3.93-2.683-5.467C14.98.15 13.134-.8 11.05-.996 8.898-1.203 6.102-1.203 3.95-.996 1.866-.8.02.15-1.517 1.687c-1.537 1.537-2.487 3.383-2.683 5.467-.207 2.152-.207 4.948 0 7.1.196 2.084 1.146 3.93 2.683 5.467 1.537 1.537 3.383 2.487 5.467 2.683 2.152.207 4.948.207 7.1 0 2.084-.196 3.93-1.146 5.467-2.683 1.537-1.537 2.487-3.383 2.683-5.467.207-2.152.207-4.948 0-7.1z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-heading font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-300 hover:text-secondary transition-colors focus-visible">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-secondary transition-colors focus-visible">About Us</a></li>
+                        <li><a href="listings.html" class="text-gray-300 hover:text-secondary transition-colors focus-visible">Properties</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-secondary transition-colors focus-visible">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-heading font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-secondary transition-colors focus-visible">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-secondary transition-colors focus-visible">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-secondary transition-colors focus-visible">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-secondary transition-colors focus-visible">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-8 mt-12">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-300 text-sm">
+                        © 2025 Mashinc Realty. All rights reserved. | Developed by Abayomi Animashaun
+                    </p>
+                    <p class="text-gray-300 text-sm mt-4 md:mt-0">
+                        Licensed Real Estate Developer | RC Number: [Your Registration Number]
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./src/js/main.js"></script>
+</body>
+</html>

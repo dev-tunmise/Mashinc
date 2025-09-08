@@ -1,0 +1,31 @@
+{
+  "name": "mashinc-realty",
+  "version": "1.0.0",
+  "description": "Premium real estate development website for Mashinc Realty",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "serve": "npx serve .",
+    "dev": "concurrently \"npm run build-css\" \"npm run serve\""
+  },
+  "keywords": [
+    "real estate",
+    "nigeria",
+    "property development",
+    "luxury homes",
+    "mashinc realty"
+  ],
+  "author": "Abayomi Animashaun",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "concurrently": "^8.2.0",
+    "serve": "^14.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
