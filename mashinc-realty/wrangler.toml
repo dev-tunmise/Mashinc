@@ -1,0 +1,22 @@
+# Cloudflare Pages Build Configuration
+[build]
+  # Build command
+  command = "npm run build"
+  
+  # Output directory
+  publish = "."
+  
+  # Environment variables
+  [build.environment]
+    NODE_VERSION = "18"
+    NPM_VERSION = "9"
+
+# Development preview settings
+[context.production]
+  command = "npm run build"
+
+[context.deploy-preview]
+  command = "npm run build"
+
+[context.branch-deploy]
+  command = "npm run build"

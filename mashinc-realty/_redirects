@@ -1,0 +1,19 @@
+# Redirects for Mashinc Realty Website
+
+# Redirect www to non-www (optional)
+https://www.mashincrealty.com/* https://mashincrealty.com/:splat 301!
+
+# Handle missing file extensions
+/about /about.html 200
+/listings /listings.html 200
+/contact /contact.html 200
+
+# SEO-friendly URLs
+/properties /listings.html 200
+/services /about.html 200
+
+# Force HTTPS (handled by Cloudflare by default)
+http://mashincrealty.com/* https://mashincrealty.com/:splat 301!
+
+# Handle 404 errors
+/* /index.html 404
