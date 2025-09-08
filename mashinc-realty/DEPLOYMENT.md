@@ -32,9 +32,9 @@
 
 3. **Build Settings**:
    - **Framework preset**: None (Static HTML)
-   - **Build command**: `npm run build`
-   - **Build output directory**: `.` (root directory)
-   - **Root directory**: `mashinc-realty` (if monorepo)
+   - **Build command**: `cd mashinc-realty && npm run build`
+   - **Build output directory**: `mashinc-realty`
+   - **Root directory**: `/` (leave empty - repo root)
 
 ### Option 2: Direct Upload
 

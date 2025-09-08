@@ -1,10 +1,10 @@
 # Cloudflare Pages Build Configuration
 [build]
   # Build command
-  command = "npm run build"
+  command = "cd mashinc-realty && npm run build"
   
-  # Output directory
-  publish = "."
+  # Output directory (relative to repo root)
+  publish = "mashinc-realty"
   
   # Environment variables
   [build.environment]
@@ -13,10 +13,13 @@
 
 # Development preview settings
 [context.production]
-  command = "npm run build"
+  command = "cd mashinc-realty && npm run build"
+  publish = "mashinc-realty"
 
 [context.deploy-preview]
-  command = "npm run build"
+  command = "cd mashinc-realty && npm run build"
+  publish = "mashinc-realty"
 
 [context.branch-deploy]
-  command = "npm run build"
+  command = "cd mashinc-realty && npm run build"
+  publish = "mashinc-realty"

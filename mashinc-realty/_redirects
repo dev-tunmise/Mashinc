@@ -15,5 +15,5 @@ https://www.mashincrealty.com/* https://mashincrealty.com/:splat 301!
 # Force HTTPS (handled by Cloudflare by default)
 http://mashincrealty.com/* https://mashincrealty.com/:splat 301!
 
-# Handle 404 errors
-/* /index.html 404
+# Handle 404 errors - redirect to homepage
+/* /index.html 200
