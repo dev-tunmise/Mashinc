@@ -6,10 +6,13 @@ https://www.mashincrealty.com/* https://mashincrealty.com/:splat 301!
 # Handle missing file extensions
 /about /about.html 200
 /listings /listings.html 200
+/blog /blog.html 200
 /contact /contact.html 200
 
 # SEO-friendly URLs
 /properties /listings.html 200
+/news /blog.html 200
+/insights /blog.html 200
 /services /about.html 200
 
 # Force HTTPS (handled by Cloudflare by default)
