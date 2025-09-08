@@ -90,7 +90,7 @@
     <!-- Main Content -->
     <main id="main-content" role="main">
         <!-- HERO SECTION -->
-        <section class="relative pt-32 pb-24 overflow-hidden">
+        <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
             <!-- Background Image -->
             <img src="./src/images/project-4.jpg" alt="Joint Ventures Partnership Background" class="absolute inset-0 w-full h-full object-cover z-0" loading="eager">
             
@@ -107,13 +107,20 @@
                     Turn possibilities into profitable realities through strategic partnerships that combine resources, expertise, and vision
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in animation-delay-400">
-                    <a href="#learn-more" class="btn-primary">
+                    <a href="#learn-more" class="btn-secondary">
                         Learn More About JV
                     </a>
-                    <a href="contact.html" class="btn-outline">
+                    <a href="contact.html" class="btn-outline bg-white/10 border-white text-white hover:bg-white hover:text-primary">
                         Start a Partnership
                     </a>
                 </div>
+            </div>
+            
+            <!-- Scroll indicator -->
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                </svg>
             </div>
         </section>
         
