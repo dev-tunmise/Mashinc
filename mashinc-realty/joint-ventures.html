@@ -92,10 +92,10 @@
         <!-- HERO SECTION -->
         <section class="relative h-96 md:h-[500px] lg:h-[600px] flex items-center justify-center overflow-hidden">
             <!-- Background Image -->
-            <img src="./src/images/project-4.jpg" alt="Joint Ventures Partnership Background" class="absolute inset-0 w-full h-full object-cover z-0" loading="eager">
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('./src/images/project-1.jpg');"></div>
             
             <!-- Dark Overlay for text readability -->
-            <div class="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary/80 z-10"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/60 to-primary/80 z-10"></div>
             
             <!-- Content -->
             <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -106,6 +106,16 @@
                 <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto animate-fade-in animation-delay-200">
                     Turn possibilities into profitable realities through strategic partnerships that combine resources, expertise, and vision
                 </p>
+            </div>
+        </section>
+        
+        <!-- INSPIRATIONAL QUOTE BANNER -->
+        <section class="py-12 bg-gradient-to-r from-secondary/10 to-primary/5">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="animate-on-scroll">
+                    <img src="./src/images/Joint-ventures/jv-quote-4.jpg" alt="Off-plan is not just real estate; it's foresight rewarded" 
+                         class="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl" loading="lazy">
+                </div>
             </div>
         </section>
         
@@ -126,7 +136,7 @@
         <!-- WHAT IS JV SECTION -->
         <section class="py-20 bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="max-w-4xl mx-auto text-center">
                     <div class="animate-on-scroll">
                         <h2 class="text-3xl md:text-4xl font-heading font-bold text-primary mb-6">
                             What is a Joint Venture?
@@ -138,8 +148,30 @@
                             <strong class="text-secondary">It is not a sale</strong>, but a win-win collaboration designed to reduce risk, maximize returns, and create lasting value.
                         </p>
                     </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- INVESTMENT WISDOM QUOTE -->
+        <section class="py-16 bg-gradient-to-r from-secondary/20 to-primary/20">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
                     <div class="animate-on-scroll animation-delay-200">
-                        <img src="./src/images/project-2.jpg" alt="Joint Venture Partnership" width="600" height="400" class="rounded-2xl shadow-2xl w-full h-auto">
+                        <h3 class="text-3xl font-heading font-bold text-primary mb-6">
+                            Investment Wisdom That Creates Wealth
+                        </h3>
+                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            The most successful real estate investors understand a fundamental truth: 
+                            <strong class="text-secondary">wealth is created at the moment of purchase, not sale</strong>.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            Through strategic joint ventures, you gain access to opportunities that reward 
+                            early vision and smart decision-making, ensuring your legacy extends far beyond any single transaction.
+                        </p>
+                    </div>
+                    <div class="animate-on-scroll">
+                        <img src="./src/images/Joint-ventures/jv-quote-2.jpg" alt="Wiser to buy when it's just an idea, cash out when it becomes a landmark" 
+                             class="rounded-2xl shadow-2xl w-full" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -157,70 +189,76 @@
                     </p>
                 </div>
                 
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Benefit 1 -->
-                    <div class="card text-center animate-on-scroll">
-                        <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-                            </svg>
+                <!-- Grid Layout: 3 cards top row, 2 cards bottom row -->
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                        <!-- Benefit 1 -->
+                        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 text-center animate-on-scroll group">
+                            <div class="w-16 h-16 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300">
+                                <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-lg font-heading font-semibold text-primary mb-3">Shared Risk, Higher Returns</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm">
+                                Instead of carrying the financial and operational burden alone, partners share responsibility while reaping substantial rewards.
+                            </p>
                         </div>
-                        <h3 class="text-xl font-heading font-semibold text-primary mb-4">Shared Risk, Higher Returns</h3>
-                        <p class="text-gray-600">
-                            Instead of carrying the financial and operational burden alone, partners share responsibility while reaping substantial rewards.
-                        </p>
+                        
+                        <!-- Benefit 2 -->
+                        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 text-center animate-on-scroll animation-delay-200 group">
+                            <div class="w-16 h-16 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300">
+                                <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-lg font-heading font-semibold text-primary mb-3">Access to Capital & Expertise</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm">
+                                Bring in a partner with the right funds, skills, and connections to fast-track success.
+                            </p>
+                        </div>
+                        
+                        <!-- Benefit 3 -->
+                        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 text-center animate-on-scroll animation-delay-400 group">
+                            <div class="w-16 h-16 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300">
+                                <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1721 9z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-lg font-heading font-semibold text-primary mb-3">Unlock Hidden Value</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm">
+                                Idle land, underutilized property, or a stalled project can become highly lucrative with the right JV partner.
+                            </p>
+                        </div>
                     </div>
                     
-                    <!-- Benefit 2 -->
-                    <div class="card text-center animate-on-scroll animation-delay-200">
-                        <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
+                    <!-- Bottom Row: 2 cards centered -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                        <!-- Benefit 4 -->
+                        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 text-center animate-on-scroll animation-delay-600 group">
+                            <div class="w-16 h-16 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300">
+                                <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-lg font-heading font-semibold text-primary mb-3">Speed & Efficiency</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm">
+                                Projects move faster when strengths are combined—capital meets land, ideas meet execution.
+                            </p>
                         </div>
-                        <h3 class="text-xl font-heading font-semibold text-primary mb-4">Access to Capital & Expertise</h3>
-                        <p class="text-gray-600">
-                            Bring in a partner with the right funds, skills, and connections to fast-track success.
-                        </p>
-                    </div>
-                    
-                    <!-- Benefit 3 -->
-                    <div class="card text-center animate-on-scroll animation-delay-400">
-                        <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"></path>
-                            </svg>
+                        
+                        <!-- Benefit 5 -->
+                        <div class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 text-center animate-on-scroll animation-delay-800 group">
+                            <div class="w-16 h-16 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300">
+                                <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-lg font-heading font-semibold text-primary mb-3">Legacy & Growth</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm">
+                                Create generational wealth while building a track record of successful collaborations.
+                            </p>
                         </div>
-                        <h3 class="text-xl font-heading font-semibold text-primary mb-4">Unlock Hidden Value</h3>
-                        <p class="text-gray-600">
-                            Idle land, underutilized property, or a stalled project can become highly lucrative with the right JV partner.
-                        </p>
-                    </div>
-                    
-                    <!-- Benefit 4 -->
-                    <div class="card text-center animate-on-scroll animation-delay-600">
-                        <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-heading font-semibold text-primary mb-4">Speed & Efficiency</h3>
-                        <p class="text-gray-600">
-                            Projects move faster when strengths are combined—capital meets land, ideas meet execution.
-                        </p>
-                    </div>
-                    
-                    <!-- Benefit 5 -->
-                    <div class="card text-center animate-on-scroll animation-delay-800">
-                        <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-heading font-semibold text-primary mb-4">Legacy & Growth</h3>
-                        <p class="text-gray-600">
-                            Create generational wealth while building a track record of successful collaborations.
-                        </p>
                     </div>
                 </div>
             </div>
@@ -229,6 +267,12 @@
         <!-- WHO BENEFITS SECTION -->
         <section class="py-20 bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <!-- Legacy Building Quote -->
+                <div class="text-center mb-12 animate-on-scroll">
+                    <img src="./src/images/Joint-ventures/jv-quote-7.jpg" alt="Selling ends the story but buying begins the legacy" 
+                         class="w-full max-w-4xl mx-auto rounded-2xl shadow-xl mb-8" loading="lazy">
+                </div>
+                
                 <div class="text-center mb-16 animate-on-scroll">
                     <h2 class="text-3xl md:text-4xl font-heading font-bold text-primary mb-4">
                         Who Benefits from Joint Ventures?
@@ -281,14 +325,37 @@
             </div>
         </section>
         
+        <!-- SMART INVESTMENT PRINCIPLES -->
+        <section class="py-16 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="animate-on-scroll">
+                        <img src="./src/images/Joint-ventures/jv-quote-6.jpg" alt="Profit is not in the price you sell for, it's in the wisdom of what you bought" 
+                             class="rounded-2xl shadow-xl w-full" loading="lazy">
+                    </div>
+                    <div class="animate-on-scroll animation-delay-200">
+                        <h3 class="text-3xl font-heading font-bold text-primary mb-6">
+                            The Wisdom Behind Every Investment
+                        </h3>
+                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            True profit isn't made at the exit—it's secured at the entrance. Our expertise lies in 
+                            identifying and structuring opportunities where <strong class="text-secondary">smart acquisition 
+                            decisions</strong> become the foundation of exceptional returns.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            We don't just facilitate transactions; we craft strategic partnerships that position 
+                            you for long-term wealth creation through informed, intelligent investment choices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <!-- WHY WORK WITH US SECTION -->
         <section class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="max-w-4xl mx-auto text-center">
                     <div class="animate-on-scroll">
-                        <img src="./src/images/project-1.jpg" alt="Professional Team" width="600" height="400" class="rounded-2xl shadow-2xl w-full h-auto">
-                    </div>
-                    <div class="animate-on-scroll animation-delay-200">
                         <h2 class="text-3xl md:text-4xl font-heading font-bold text-primary mb-6">
                             Why Work With Us?
                         </h2>
@@ -298,7 +365,7 @@
                         <p class="text-lg text-gray-700 leading-relaxed mb-8">
                             Our network of investors, developers, and professionals ensures your project doesn't just take off—<strong class="text-secondary">it succeeds</strong>.
                         </p>
-                        <div class="space-y-4">
+                        <div class="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
                             <div class="flex items-start">
                                 <svg class="w-6 h-6 text-secondary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
@@ -329,86 +396,136 @@
             </div>
         </section>
         
+        <!-- WEALTH BUILDING MINDSET SECTION -->
+        <section class="py-20 bg-gradient-to-r from-primary/5 to-secondary/10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-3 gap-8 items-center">
+                    <!-- Quote 8 -->
+                    <div class="animate-on-scroll">
+                        <img src="./src/images/Joint-ventures/jv-quote-8.jpg" alt="Want to be rich in real estate? Master when to buy, not the goodbye" 
+                             class="rounded-2xl shadow-xl w-full" loading="lazy">
+                    </div>
+                    <!-- Quote 9 -->
+                    <div class="animate-on-scroll animation-delay-200">
+                        <img src="./src/images/Joint-ventures/jv-quote-9.jpg" alt="Fortunes are not made when you sell, they are secured when you buy smart" 
+                             class="rounded-2xl shadow-xl w-full" loading="lazy">
+                    </div>
+                    <!-- Call to Action Text -->
+                    <div class="animate-on-scroll animation-delay-400">
+                        <h3 class="text-2xl font-heading font-bold text-primary mb-6">
+                            Master the Art of Smart Buying
+                        </h3>
+                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            Real estate wealth isn't about perfect timing—it's about smart positioning. 
+                            Learn when to move, how to evaluate, and why joint ventures amplify your success.
+                        </p>
+                        <a href="#cta-section" class="inline-flex items-center text-secondary font-semibold hover:text-primary transition-colors">
+                            Start Your Wealth Journey 
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FINAL MOTIVATION BANNER -->
+        <section class="py-16 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div class="animate-on-scroll">
+                    <img src="./src/images/Joint-ventures/jv-quote-1.jpg" alt="Your ROI begins the day you say yes to the plan, not the day it's completed" 
+                         class="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl opacity-90" loading="lazy">
+                    <div class="mt-8">
+                        <h3 class="text-xl font-heading font-bold mb-3">
+                            Your Success Story Starts Today
+                        </h3>
+                        <p class="text-lg text-gray-300">
+                            Every moment you delay is potential profit walking away. The question isn't whether you can afford to invest—it's whether you can afford not to.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <!-- CALL TO ACTION SECTION -->
-        <section class="relative py-24 bg-gradient-to-br from-primary via-primary to-primary/90 text-white overflow-hidden">
+        <section class="relative py-20 bg-gray-50 text-gray-900 overflow-hidden">
             <!-- Background Pattern -->
-            <div class="absolute inset-0 opacity-10">
-                <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.15) 1px, transparent 0); background-size: 20px 20px;"></div>
+            <div class="absolute inset-0 opacity-5">
+                <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.1) 1px, transparent 0); background-size: 20px 20px;"></div>
             </div>
             
             <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center animate-on-scroll">
                     <!-- Main Heading -->
-                    <div class="mb-12">
-                        <h2 class="text-4xl md:text-6xl font-heading font-bold mb-6 leading-tight">
+                    <div class="mb-10">
+                        <h2 class="text-3xl md:text-5xl font-heading font-bold mb-5 leading-tight">
                             Ready to <span class="text-secondary">Transform</span><br>
                             Your Real Estate Vision?
                         </h2>
-                        <div class="w-24 h-1 bg-secondary mx-auto mb-8"></div>
+                        <div class="w-20 h-0.5 bg-secondary mx-auto mb-6"></div>
                     </div>
                     
                     <!-- Value Proposition -->
-                    <div class="max-w-4xl mx-auto mb-16">
-                        <p class="text-xl md:text-2xl text-gray-200 mb-6 leading-relaxed">
+                    <div class="max-w-4xl mx-auto mb-12">
+                        <p class="text-lg md:text-xl text-gray-600 mb-5 leading-relaxed">
                             Every underutilized property, every stalled idea, and every missed opportunity costs you money daily.
                         </p>
-                        <p class="text-2xl md:text-3xl text-secondary font-bold mb-8">
+                        <p class="text-xl md:text-2xl text-primary font-bold mb-6">
                             With the right Joint Venture, your asset can start working for you TODAY.
                         </p>
                     </div>
                     
                     <!-- Key Benefits Grid -->
-                    <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-16">
-                        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                            <div class="w-16 h-16 bg-secondary/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                                <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
+                        <div class="bg-white/90 backdrop-blur-md rounded-xl p-5 border border-gray-200 hover:shadow-lg transition-all duration-300">
+                            <div class="w-14 h-14 bg-secondary/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                                <svg class="w-7 h-7 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-heading font-bold mb-2">Fast Results</h3>
-                            <p class="text-gray-200">Start seeing returns within 90 days</p>
+                            <h3 class="text-lg font-heading font-bold mb-2 text-gray-900">Fast Results</h3>
+                            <p class="text-gray-600 text-sm">Start seeing returns within 90 days</p>
                         </div>
                         
-                        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                            <div class="w-16 h-16 bg-secondary/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                                <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div class="bg-white/90 backdrop-blur-md rounded-xl p-5 border border-gray-200 hover:shadow-lg transition-all duration-300">
+                            <div class="w-14 h-14 bg-secondary/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                                <svg class="w-7 h-7 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-heading font-bold mb-2">100% Secure</h3>
-                            <p class="text-gray-200">Legally protected agreements</p>
+                            <h3 class="text-lg font-heading font-bold mb-2 text-gray-900">100% Secure</h3>
+                            <p class="text-gray-600 text-sm">Legally protected agreements</p>
                         </div>
                         
-                        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                            <div class="w-16 h-16 bg-secondary/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                                <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div class="bg-white/90 backdrop-blur-md rounded-xl p-5 border border-gray-200 hover:shadow-lg transition-all duration-300">
+                            <div class="w-14 h-14 bg-secondary/20 rounded-xl flex items-center justify-center mx-auto mb-3">
+                                <svg class="w-7 h-7 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-heading font-bold mb-2">Zero Risk</h3>
-                            <p class="text-gray-200">Free consultation & assessment</p>
+                            <h3 class="text-lg font-heading font-bold mb-2 text-gray-900">Zero Risk</h3>
+                            <p class="text-gray-600 text-sm">Free consultation & assessment</p>
                         </div>
-                    </div>
-                    
-                    <!-- Final Call to Action -->
+                    </div>                    <!-- Final Call to Action -->
                     <div class="max-w-3xl mx-auto">
-                        <h3 class="text-2xl md:text-3xl font-heading font-bold mb-6">
+                        <h3 class="text-xl md:text-2xl font-heading font-bold mb-5 text-gray-900">
                             Let's unlock the hidden value in your project.
                         </h3>
-                        <p class="text-xl text-gray-200 mb-10 leading-relaxed">
+                        <p class="text-lg text-gray-600 mb-8 leading-relaxed">
                             Partner with us, and together we'll turn vision into reality. Get your FREE project assessment today.
                         </p>
                         
                         <!-- CTA Buttons -->
-                        <div class="flex flex-col sm:flex-row gap-6 justify-center items-center max-w-2xl mx-auto">
-                            <a href="contact.html" class="group bg-secondary hover:bg-yellow-400 text-primary font-bold px-12 py-6 rounded-lg text-xl transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 flex items-center justify-center min-w-[280px]">
-                                <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-2xl mx-auto">
+                            <a href="contact.html" class="group bg-gradient-to-r from-secondary to-yellow-400 hover:from-yellow-400 hover:to-secondary text-primary font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center justify-center min-w-[260px]">
+                                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
                                 </svg>
                                 <span>Start Your Joint Venture</span>
                             </a>
                             
-                            <a href="tel:+234XXXXXXXXX" class="group bg-white/10 hover:bg-white border-2 border-white text-white hover:text-primary font-bold px-12 py-6 rounded-lg text-xl transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 backdrop-blur-sm flex items-center justify-center min-w-[280px]">
+                            <a href="tel:+234XXXXXXXXX" class="group bg-transparent hover:bg-primary/10 border-2 border-primary/30 hover:border-primary text-primary hover:text-primary font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 backdrop-blur-sm flex items-center justify-center min-w-[260px]">
                                 <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                                 </svg>
