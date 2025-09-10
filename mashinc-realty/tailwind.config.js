@@ -18,6 +18,10 @@ module.exports = {
         'fade-in': 'fadeIn 1s ease-in',
         'gradient': 'gradient 15s ease infinite',
       },
+      animationDelay: {
+        '1000': '1000ms',
+        '2000': '2000ms',
+      },
       keyframes: {
         float: {
           '0%, 100%': { transform: 'translateY(0px)' },
@@ -45,6 +49,10 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'dotted-pattern': 'radial-gradient(circle at 1px 1px, rgba(0,0,0,0.1) 1px, transparent 0)',
+      },
+      backgroundSize: {
+        'dotted': '20px 20px',
       },
     },
   },
