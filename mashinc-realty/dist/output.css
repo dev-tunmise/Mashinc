@@ -1457,6 +1457,11 @@ h1, h2, h3, h4, h5, h6 {
   border-color: rgb(12 27 50 / var(--tw-border-opacity, 1));
 }
 
+.border-green-600{
+  --tw-border-opacity: 1;
+  border-color: rgb(22 163 74 / var(--tw-border-opacity, 1));
+}
+
 .bg-black\/50{
   background-color: rgb(0 0 0 / 0.5);
 }
@@ -1542,6 +1547,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-white\/95{
   background-color: rgb(255 255 255 / 0.95);
+}
+
+.bg-green-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-br{
@@ -2068,6 +2078,11 @@ h1, h2, h3, h4, h5, h6 {
   border-color: rgb(12 27 50 / var(--tw-border-opacity, 1));
 }
 
+.hover\:border-green-700:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(21 128 61 / var(--tw-border-opacity, 1));
+}
+
 .hover\:bg-black\/70:hover{
   background-color: rgb(0 0 0 / 0.7);
 }
@@ -2102,6 +2117,11 @@ h1, h2, h3, h4, h5, h6 {
 .hover\:bg-yellow-500:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-green-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:from-yellow-400:hover{
