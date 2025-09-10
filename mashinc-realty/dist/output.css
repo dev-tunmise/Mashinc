@@ -1600,9 +1600,20 @@ h1, h2, h3, h4, h5, h6 {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-slate-900\/95{
+  --tw-gradient-from: rgb(15 23 42 / 0.95) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(15 23 42 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-slate-800\/85{
   --tw-gradient-to: rgb(30 41 59 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), rgb(30 41 59 / 0.85) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-slate-900\/90{
+  --tw-gradient-to: rgb(15 23 42 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(15 23 42 / 0.9) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
 .to-primary\/60{
@@ -1635,6 +1646,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .to-yellow-400{
   --tw-gradient-to: #facc15 var(--tw-gradient-to-position);
+}
+
+.to-slate-800\/95{
+  --tw-gradient-to: rgb(30 41 59 / 0.95) var(--tw-gradient-to-position);
 }
 
 .bg-cover{
@@ -1767,6 +1782,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .pt-8{
   padding-top: 2rem;
+}
+
+.pt-16{
+  padding-top: 4rem;
 }
 
 .text-left{
@@ -2211,6 +2230,10 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
   }
 
+  .md\:pt-20{
+    padding-top: 5rem;
+  }
+
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2303,6 +2326,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .lg\:pr-12{
     padding-right: 3rem;
+  }
+
+  .lg\:pt-24{
+    padding-top: 6rem;
   }
 
   .lg\:text-6xl{
