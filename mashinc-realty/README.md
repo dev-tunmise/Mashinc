@@ -209,4 +209,4 @@ For technical support or customization inquiries, contact the development team o
 ---
 
 **© 2025 Mashinc Realty. All rights reserved.**
-*Developed by Abayomi Animashaun*
+*Developed by [Websetly](https://websetly.com)*

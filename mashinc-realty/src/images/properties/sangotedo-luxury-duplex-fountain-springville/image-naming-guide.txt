@@ -1,0 +1,27 @@
+SEO-Optimized Image Names for Sangotedo Luxury Duplex
+==================================================
+
+Recommended image file names (rename your images to these):
+
+1. sangotedo-luxury-duplex-exterior-view.jpg (main exterior shot)
+2. sangotedo-duplex-fountain-springville-front-facade.jpg (front view)
+3. luxury-duplex-sangotedo-living-room.jpg (living room)
+4. sangotedo-duplex-master-bedroom-ensuite.jpg (master bedroom)
+5. fountain-springville-duplex-kitchen-modern.jpg (kitchen)
+6. sangotedo-luxury-duplex-penthouse-view.jpg (penthouse)
+7. duplex-sangotedo-boys-quarters-bq.jpg (BQ)
+8. sangotedo-duplex-smart-home-automation.jpg (smart features)
+9. fountain-springville-estate-compound-view.jpg (estate view)
+10. sangotedo-duplex-solar-inverter-system.jpg (solar system)
+11. luxury-duplex-sangotedo-bathroom-ensuite.jpg (bathroom)
+12. fountain-springville-duplex-balcony-view.jpg (balcony/outdoor)
+
+Main hero image (for cards): sangotedo-luxury-duplex-exterior-view.jpg
+
+Notes:
+- Include location keywords: "sangotedo", "fountain-springville"
+- Include property type: "duplex", "luxury"
+- Include specific features: "penthouse", "smart-home", "solar"
+- Use hyphens to separate words
+- Keep filenames under 60 characters
+- Use .jpg extension for photos
